@@ -1,0 +1,333 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 dic28 ?        00:00:12 /usr/lib/systemd/systemd --switched-root --system --deserialize=60 rhgb
+root           2       0  0 dic28 ?        00:00:00 [kthreadd]
+root           3       2  0 dic28 ?        00:00:00 [pool_workqueue_release]
+root           4       2  0 dic28 ?        00:00:00 [kworker/R-rcu_gp]
+root           5       2  0 dic28 ?        00:00:00 [kworker/R-sync_wq]
+root           6       2  0 dic28 ?        00:00:00 [kworker/R-kvfree_rcu_reclaim]
+root           7       2  0 dic28 ?        00:00:00 [kworker/R-slub_flushwq]
+root           8       2  0 dic28 ?        00:00:00 [kworker/R-netns]
+root          10       2  0 dic28 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          13       2  0 dic28 ?        00:00:00 [kworker/R-mm_percpu_wq]
+root          15       2  0 dic28 ?        00:00:03 [ksoftirqd/0]
+root          16       2  0 dic28 ?        00:00:11 [rcu_preempt]
+root          17       2  0 dic28 ?        00:00:00 [rcu_exp_par_gp_kthread_worker/0]
+root          18       2  0 dic28 ?        00:00:00 [rcu_exp_gp_kthread_worker]
+root          19       2  0 dic28 ?        00:00:03 [migration/0]
+root          20       2  0 dic28 ?        00:00:00 [idle_inject/0]
+root          21       2  0 dic28 ?        00:00:00 [cpuhp/0]
+root          22       2  0 dic28 ?        00:00:00 [cpuhp/1]
+root          23       2  0 dic28 ?        00:00:00 [idle_inject/1]
+root          24       2  0 dic28 ?        00:00:00 [migration/1]
+root          25       2  0 dic28 ?        00:00:01 [ksoftirqd/1]
+root          27       2  0 dic28 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          28       2  0 dic28 ?        00:00:00 [cpuhp/2]
+root          29       2  0 dic28 ?        00:00:00 [idle_inject/2]
+root          30       2  0 dic28 ?        00:00:01 [migration/2]
+root          31       2  0 dic28 ?        00:00:00 [ksoftirqd/2]
+root          33       2  0 dic28 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          34       2  0 dic28 ?        00:00:00 [cpuhp/3]
+root          35       2  0 dic28 ?        00:00:00 [idle_inject/3]
+root          36       2  0 dic28 ?        00:00:03 [migration/3]
+root          37       2  0 dic28 ?        00:00:00 [ksoftirqd/3]
+root          39       2  0 dic28 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          40       2  0 dic28 ?        00:00:00 [cpuhp/4]
+root          41       2  0 dic28 ?        00:00:00 [idle_inject/4]
+root          42       2  0 dic28 ?        00:00:04 [migration/4]
+root          43       2  0 dic28 ?        00:00:00 [ksoftirqd/4]
+root          45       2  0 dic28 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          46       2  0 dic28 ?        00:00:00 [cpuhp/5]
+root          47       2  0 dic28 ?        00:00:00 [idle_inject/5]
+root          48       2  0 dic28 ?        00:00:00 [migration/5]
+root          49       2  0 dic28 ?        00:00:00 [ksoftirqd/5]
+root          51       2  0 dic28 ?        00:00:00 [kworker/5:0H-events_highpri]
+root          52       2  0 dic28 ?        00:00:00 [cpuhp/6]
+root          53       2  0 dic28 ?        00:00:00 [idle_inject/6]
+root          54       2  0 dic28 ?        00:00:01 [migration/6]
+root          55       2  0 dic28 ?        00:00:26 [ksoftirqd/6]
+root          57       2  0 dic28 ?        00:00:00 [kworker/6:0H-events_highpri]
+root          58       2  0 dic28 ?        00:00:00 [cpuhp/7]
+root          59       2  0 dic28 ?        00:00:00 [idle_inject/7]
+root          60       2  0 dic28 ?        00:00:02 [migration/7]
+root          61       2  0 dic28 ?        00:00:00 [ksoftirqd/7]
+root          63       2  0 dic28 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          64       2  0 dic28 ?        00:00:00 [kdevtmpfs]
+root          65       2  0 dic28 ?        00:00:00 [kworker/R-inet_frag_wq]
+root          66       2  0 dic28 ?        00:00:00 [rcu_tasks_kthread]
+root          67       2  0 dic28 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          68       2  0 dic28 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          69       2  0 dic28 ?        00:00:00 [kauditd]
+root          70       2  0 dic28 ?        00:00:00 [oom_reaper]
+root          72       2  0 dic28 ?        00:00:00 [kworker/R-writeback]
+root          73       2  0 dic28 ?        00:01:32 [kcompactd0]
+root          74       2  0 dic28 ?        00:00:00 [ksmd]
+root          75       2  0 dic28 ?        00:00:00 [khugepaged]
+root          76       2  0 dic28 ?        00:00:00 [kworker/R-kblockd]
+root          77       2  0 dic28 ?        00:00:00 [kworker/R-blkcg_punt_bio]
+root          78       2  0 dic28 ?        00:00:00 [kworker/R-kintegrityd]
+root          80       2  0 dic28 ?        00:00:00 [irq/9-acpi]
+root          81       2  0 dic28 ?        00:00:00 [kworker/R-tpm_dev_wq]
+root          82       2  0 dic28 ?        00:00:00 [kworker/R-ata_sff]
+root          83       2  0 dic28 ?        00:00:00 [kworker/R-md]
+root          84       2  0 dic28 ?        00:00:00 [kworker/R-md_bitmap]
+root          85       2  0 dic28 ?        00:00:00 [kworker/R-edac-poller]
+root          86       2  0 dic28 ?        00:00:00 [kworker/R-devfreq_wq]
+root          88       2  0 dic28 ?        00:00:00 [watchdogd]
+root          89       2  0 dic28 ?        00:00:00 [kworker/R-quota_events_unbound]
+root          92       2  0 dic28 ?        00:00:01 [kworker/2:1H-i915_cleanup]
+root          93       2  0 dic28 ?        00:00:21 [kswapd0]
+root          94       2  0 dic28 ?        00:00:00 [kworker/R-cryptd]
+root          97       2  0 dic28 ?        00:00:00 [kworker/R-kthrotld]
+root          99       2  0 dic28 ?        00:00:00 [irq/120-aerdrv]
+root         100       2  0 dic28 ?        00:00:00 [irq/120-pcie-dpc]
+root         101       2  0 dic28 ?        00:00:00 [irq/121-aerdrv]
+root         102       2  0 dic28 ?        00:00:00 [irq/121-pcie-dpc]
+root         103       2  0 dic28 ?        00:00:00 [irq/122-aerdrv]
+root         104       2  0 dic28 ?        00:00:00 [irq/122-pcie-dpc]
+root         105       2  0 dic28 ?        00:00:00 [irq/123-aerdrv]
+root         106       2  0 dic28 ?        00:00:00 [irq/123-pcie-dpc]
+root         108       2  0 dic28 ?        00:00:00 [kworker/R-acpi_thermal_pm]
+root         109       2  0 dic28 ?        00:00:00 [hwrng]
+root         113       2  0 dic28 ?        00:00:00 [scsi_eh_0]
+root         114       2  0 dic28 ?        00:00:00 [kworker/R-scsi_tmf_0]
+root         116       2  0 dic28 ?        00:00:00 [kworker/R-dm_bufio_cache]
+root         117       2  0 dic28 ?        00:00:00 [kworker/R-mld]
+root         118       2  0 dic28 ?        00:00:00 [kworker/R-ipv6_addrconf]
+root         119       2  0 dic28 ?        00:00:03 [kworker/0:1H-i915_cleanup]
+root         122       2  0 dic28 ?        00:00:00 [kworker/R-kstrp]
+root         199       2  0 dic28 ?        00:00:01 [kworker/3:1H-kblockd]
+root         201       2  0 dic28 ?        00:00:02 [kworker/5:1H-kblockd]
+root         242       2  0 dic28 ?        00:00:02 [kworker/1:1H-i915_cleanup]
+root         244       2  0 dic28 ?        00:00:01 [kworker/4:1H-i915_cleanup]
+root         247       2  0 dic28 ?        00:00:02 [kworker/7:1H-i915_cleanup]
+root         250       2  0 dic28 ?        00:00:04 [kworker/6:1H-i915_cleanup]
+root         403       2  0 dic28 ?        00:01:57 [irq/74-ELAN0709:00]
+root         407       2  0 dic28 ?        00:00:00 [scsi_eh_1]
+root         408       2  0 dic28 ?        00:00:00 [kworker/R-scsi_tmf_1]
+root         409       2  0 dic28 ?        00:00:01 [usb-storage]
+root         418       2  0 dic28 ?        00:00:00 [kworker/R-uas]
+root         419       2  0 dic28 ?        00:00:00 [kworker/R-nvme-wq]
+root         420       2  0 dic28 ?        00:00:00 [kworker/R-nvme-reset-wq]
+root         421       2  0 dic28 ?        00:00:00 [kworker/R-nvme-delete-wq]
+root         422       2  0 dic28 ?        00:00:00 [kworker/R-nvme-auth-wq]
+root         432       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-worker]
+root         433       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-delalloc]
+root         434       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-flush_delalloc]
+root         435       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-cache]
+root         436       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-fixup]
+root         437       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-endio]
+root         438       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-endio-meta]
+root         439       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-rmw]
+root         440       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-endio-write]
+root         441       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-compressed-write]
+root         442       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-freespace-write]
+root         443       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-delayed-meta]
+root         444       2  0 dic28 ?        00:00:00 [kworker/R-btrfs-qgroup-rescan]
+root         445       2  0 dic28 ?        00:00:00 [btrfs-cleaner]
+root         446       2  0 dic28 ?        00:00:30 [btrfs-transaction]
+root         475       2  0 dic28 ?        00:00:00 [kworker/R-ttm]
+root         476       2  0 dic28 ?        00:00:00 [kworker/R-ttm]
+root         477       2  0 dic28 ?        00:00:00 [card2-crtc0]
+root         478       2  0 dic28 ?        00:00:00 [card2-crtc1]
+root         479       2  0 dic28 ?        00:00:00 [card2-crtc2]
+root         546       1  0 dic28 ?        00:01:33 /usr/lib/systemd/systemd-journald
+root         577       1  0 dic28 ?        00:00:00 /usr/lib/systemd/systemd-userdbd
+root         588       1  0 dic28 ?        00:00:02 /usr/lib/systemd/systemd-udevd
+root         589       2  0 dic28 ?        00:00:00 [psimon]
+root         663       2  0 dic28 ?        00:00:00 [jbd2/nvme0n1p2-8]
+root         665       2  0 dic28 ?        00:00:00 [kworker/R-ext4-rsv-conversion]
+root         695       2  0 dic28 ?        00:00:00 [kworker/R-cfg80211]
+systemd+     724       1  0 dic28 ?        00:00:05 /usr/lib/systemd/systemd-resolved
+root         726       1  0 dic28 ?        00:00:00 /usr/bin/auditd
+root         728     726  0 dic28 ?        00:00:00 /usr/sbin/sedispatch
+dbus         772       1  0 dic28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope system --audit
+root         774       2  0 dic28 ?        00:01:51 [irq/146-rtw88_pci]
+dbus         780     772  0 dic28 ?        00:00:09 dbus-broker --log 10 --controller 9 --machine-id 10e15d8f7ada4aa49865722237c2fccf --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+avahi        783       1  0 dic28 ?        00:00:00 avahi-daemon: running [fedora.local]
+root         784       1  0 dic28 ?        00:00:05 /usr/libexec/bluetooth/bluetoothd
+root         787       1  0 dic28 ?        00:00:04 /usr/sbin/irqbalance
+chrony       789       1  0 dic28 ?        00:00:00 /usr/sbin/chronyd -n -F 2
+root         791       1  0 dic28 ?        00:00:00 /usr/sbin/mcelog --daemon --foreground
+polkitd      793       1  0 dic28 ?        00:00:03 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+rtkit        795       1  0 dic28 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         796       1  0 dic28 ?        00:00:00 /usr/bin/smartd -n -q never --capabilities=mail
+root         797       1  0 dic28 ?        00:00:00 /usr/libexec/switcheroo-control
+root         798       1  0 dic28 ?        00:00:04 /usr/bin/thermald --systemd --dbus-enable --adaptive
+root         799       1  0 dic28 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         800       1  0 dic28 ?        00:00:09 /usr/libexec/upowerd
+root         814       1  0 dic28 ?        00:00:04 /usr/libexec/accounts-daemon
+root         817       1  0 dic28 ?        00:00:01 /usr/lib/systemd/systemd-logind
+avahi        819     783  0 dic28 ?        00:00:00 avahi-daemon: chroot helper
+root         841       1  0 dic28 ?        00:00:00 /usr/sbin/abrtd -d -s
+root         881       1  0 dic28 ?        00:00:00 /usr/bin/ModemManager
+root         882       1  0 dic28 ?        00:00:00 /usr/bin/python3 -sP /usr/bin/firewalld --nofork --nopid
+root         891       1  0 dic28 ?        00:00:02 /usr/bin/abrt-dump-journal-core -D -T -f -e
+root         893       1  0 dic28 ?        00:00:04 /usr/bin/abrt-dump-journal-oops -fxtD
+root         899       1  0 dic28 ?        00:00:02 /usr/bin/abrt-dump-journal-xorg -fxtD
+root         901       2  0 dic28 ?        00:00:00 [kworker/R-rpciod]
+root         902       2  0 dic28 ?        00:00:00 [kworker/R-xprtiod]
+root         919       1  0 dic28 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root         969       1  0 dic28 ?        00:00:18 /usr/bin/NetworkManager --no-daemon
+root         991       1  0 dic28 ?        00:00:07 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+root        1005       1  0 dic28 ?        00:00:00 /usr/bin/cupsd -l
+root        1007       1  0 dic28 ?        00:00:00 /usr/bin/gssproxy -i
+root        1010       1  0 dic28 ?        00:00:07 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root        1030       1  0 dic28 ?        00:00:03 /usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root        1039       1  0 dic28 ?        00:00:22 /usr/sbin/rsyslogd -n
+postgres    1044       1  0 dic28 ?        00:00:01 /usr/bin/postgres -D /var/lib/pgsql/data
+root        1046       1  0 dic28 ?        00:00:00 /usr/sbin/atd -f
+root        1047       1  0 dic28 ?        00:00:00 /usr/sbin/crond -n
+root        1056       1  0 dic28 ?        00:00:00 /usr/bin/sddm
+postgres    1057    1044  0 dic28 ?        00:00:00 postgres: logger 
+postgres    1058    1044  0 dic28 ?        00:00:00 postgres: io worker 0
+postgres    1059    1044  0 dic28 ?        00:00:00 postgres: io worker 1
+postgres    1060    1044  0 dic28 ?        00:00:00 postgres: io worker 2
+postgres    1061    1044  0 dic28 ?        00:00:00 postgres: checkpointer 
+postgres    1062    1044  0 dic28 ?        00:00:00 postgres: background writer 
+postgres    1064    1044  0 dic28 ?        00:00:00 postgres: walwriter 
+postgres    1065    1044  0 dic28 ?        00:00:00 postgres: autovacuum launcher 
+postgres    1066    1044  0 dic28 ?        00:00:00 postgres: logical replication launcher 
+root        1069       1  0 dic28 ?        00:00:00 /usr/libexec/uresourced
+root        1182       2  0 dic28 ?        00:00:00 [krfcommd]
+root        1255    1056  0 dic28 ?        00:00:00 /usr/libexec/sddm-helper --socket /tmp/sddm-auth-b40fcfca-989f-417d-a148-d56fbb0878a1 --id 1 --start /usr/libexec/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland --user rvasquez
+rvasquez    1262       1  0 dic28 ?        00:00:07 /usr/lib/systemd/systemd --user --deserialize=10
+rvasquez    1264    1262  0 dic28 ?        00:00:00 (sd-pam)
+rvasquez    1322    1262  0 dic28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+rvasquez    1323    1322  0 dic28 ?        00:00:05 dbus-broker --log 11 --controller 10 --machine-id 10e15d8f7ada4aa49865722237c2fccf --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+rvasquez    1326       1  0 dic28 ?        00:00:00 /usr/bin/ksecretd --pam-login 13 14
+rvasquez    1327    1255  0 dic28 tty2     00:00:00 /usr/bin/startplasma-wayland
+rvasquez    1559    1262  0 dic28 ?        00:00:00 /usr/bin/kwin_wayland_wrapper --xwayland
+rvasquez    1560    1262  0 dic28 ?        00:00:01 /usr/libexec/uresourced --user
+rvasquez    1569    1262  0 dic28 ?        00:04:38 /usr/bin/pipewire
+rvasquez    1571    1262  0 dic28 ?        00:00:17 /usr/bin/wireplumber
+rvasquez    1573    1262  1 dic28 ?        00:07:34 /usr/bin/pipewire-pulse
+rvasquez    1574    1559  8 dic28 ?        00:41:06 /usr/bin/kwin_wayland --wayland-fd 7 --socket wayland-0 --xwayland-fd 8 --xwayland-fd 9 --xwayland-display :0 --xwayland-xauthority /run/user/1000/xauth_gvgxJB --xwayland
+rvasquez    1576    1262  0 dic28 ?        00:00:00 /usr/libexec/kf6/baloo_file
+rvasquez    1598    1262  0 dic28 ?        00:00:02 /usr/libexec/xdg-desktop-portal
+rvasquez    1610    1262  0 dic28 ?        00:00:00 /usr/libexec/xdg-permission-store
+rvasquez    1620    1262  0 dic28 ?        00:00:00 /usr/libexec/xdg-document-portal
+root        1627    1620  0 dic28 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+rvasquez    1673    1574  2 dic28 ?        00:12:34 /usr/bin/Xwayland :0 -auth /run/user/1000/xauth_gvgxJB -listenfd 8 -listenfd 9 -displayfd 75 -wm 78 -rootless -enable-ei-portal
+rvasquez    1722    1262  0 dic28 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+rvasquez    1730    1722  0 dic28 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+rvasquez    1732    1730  0 dic28 ?        00:00:00 dbus-broker --log 10 --controller 9 --machine-id 10e15d8f7ada4aa49865722237c2fccf --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+rvasquez    1740    1262  0 dic28 ?        00:00:00 /usr/bin/ksmserver
+rvasquez    1742    1262  0 dic28 ?        00:00:23 /usr/bin/kded6
+rvasquez    1782    1262  0 dic28 ?        00:02:05 /usr/bin/plasmashell --no-respawn
+rvasquez    1786    1262  0 dic28 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+rvasquez    1802    1262  0 dic28 ?        00:00:24 /usr/libexec/kactivitymanagerd
+rvasquez    1807    1262  0 dic28 ?        00:00:00 /usr/libexec/dconf-service
+rvasquez    1833    1262  0 dic28 ?        00:00:00 /usr/bin/gmenudbusmenuproxy
+rvasquez    1834    1262  0 dic28 ?        00:00:00 /usr/bin/kaccess
+rvasquez    1835    1262  0 dic28 ?        00:00:00 /usr/libexec/kf6/polkit-kde-authentication-agent-1
+rvasquez    1836    1262  0 dic28 ?        00:00:03 /usr/libexec/org_kde_powerdevil
+rvasquez    1837    1262  0 dic28 ?        00:00:37 /usr/libexec/xdg-desktop-portal-kde
+rvasquez    1838    1262  0 dic28 ?        00:00:00 /usr/bin/xembedsniproxy
+rvasquez    1839    1262  0 dic28 ?        00:00:00 /usr/bin/ssh-agent -D
+rvasquez    1881    1262  0 dic28 ?        00:00:00 /usr/bin/xsettingsd
+rvasquez    1887    1262  0 dic28 ?        00:00:00 /usr/libexec/bluetooth/obexd
+rvasquez    1924    1262  0 dic28 ?        00:00:00 /usr/bin/kwalletd6
+rvasquez    2051    1262  0 dic28 ?        00:00:00 /usr/bin/abrt-applet --gapplication-service
+rvasquez    2054    1262  0 dic28 ?        00:02:15 /usr/bin/kdeconnectd
+rvasquez    2061    1262  0 dic28 ?        00:00:00 /usr/bin/python3 -Es /usr/bin/seapplet
+rvasquez    2079    1262  0 dic28 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+rvasquez    2086    1262  0 dic28 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+rvasquez    2091    1262  0 dic28 ?        00:00:07 /usr/libexec/DiscoverNotifier --check-delay 20
+root        2119       1  0 dic28 ?        00:00:00 /usr/sbin/abrt-dbus -t133
+rvasquez    2180    1262  0 dic28 ?        00:00:00 /usr/libexec/imsettings-daemon
+rvasquez    2432    1262  0 dic28 ?        00:03:31 /usr/share/antigravity/antigravity
+rvasquez    2435    2432  0 dic28 ?        00:00:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+rvasquez    2436    2432  0 dic28 ?        00:00:00 /usr/share/antigravity/antigravity --type=zygote
+rvasquez    2438    2436  0 dic28 ?        00:00:00 /usr/share/antigravity/antigravity --type=zygote
+rvasquez    2453    1262  0 dic28 ?        00:00:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/rvasquez/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=1.104.0 --annotation=lsb-release=Fedora Linux 43 (KDE Plasma Desktop Edition) --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.3.1 --initial-client-fd=44 --shared-client-connection
+rvasquez    2470    2435  8 dic28 ?        00:39:46 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+rvasquez    2478    2432  0 dic28 ?        00:00:32 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2453 --enable-crash-reporter=a2a1b726-6be8-4de5-a8d2-2027f560874d,no_channel --user-data-dir=/home/rvasquez/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15393575995941129409,17878687486512565012,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+rvasquez    2497    2438 21 dic28 ?        01:42:22 /usr/share/antigravity/antigravity --type=zygote
+rvasquez    2542    2438  0 dic28 ?        00:00:02 /usr/share/antigravity/antigravity --type=zygote
+rvasquez    2618    2432  1 dic28 ?        00:05:32 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --crashpad-handler-pid=2453 --enable-crash-reporter=a2a1b726-6be8-4de5-a8d2-2027f560874d,no_channel --user-data-dir=/home/rvasquez/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15393575995941129409,17878687486512565012,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+rvasquez    2628    2432  0 dic28 ?        00:00:10 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2453 --enable-crash-reporter=a2a1b726-6be8-4de5-a8d2-2027f560874d,no_channel --user-data-dir=/home/rvasquez/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15393575995941129409,17878687486512565012,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+rvasquez    2629    2432  0 dic28 ?        00:00:22 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2453 --enable-crash-reporter=a2a1b726-6be8-4de5-a8d2-2027f560874d,no_channel --user-data-dir=/home/rvasquez/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15393575995941129409,17878687486512565012,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+rvasquez    2672    2618  0 dic28 ?        00:00:00 [sh] <defunct>
+root        2676       1  0 dic28 ?        00:00:00 /usr/bin/pcscd --foreground --auto-exit
+rvasquez    2689    2618  0 dic28 ?        00:00:04 /usr/share/antigravity/antigravity /usr/share/antigravity/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=2618
+rvasquez    2835    2432  0 dic28 ?        00:02:05 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2453 --enable-crash-reporter=a2a1b726-6be8-4de5-a8d2-2027f560874d,no_channel --user-data-dir=/home/rvasquez/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15393575995941129409,17878687486512565012,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+rvasquez    2853    2835  0 dic28 pts/1    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez    2903    2618  1 dic28 ?        00:08:21 /usr/share/antigravity/resources/app/extensions/antigravity/bin/language_server_linux_x64 --enable_lsp --extension_server_port 38601 --csrf_token 13b974fc-bc3b-4547-a4a3-645531134a80 --random_port --workspace_id file_home_rvasquez_Documentos_ecommerce_suscription --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --app_data_dir antigravity --parent_pipe_path /tmp/server_a095c47f4f658883
+rvasquez    2992    2618  0 dic28 ?        00:00:04 /usr/share/antigravity/antigravity --max-old-space-size=3072 /usr/share/antigravity/resources/app/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript1000/29ab90d116f706844458/tscancellation-ff1c59be8beef7871d26.tmp* --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc
+rvasquez    2993    2618  0 dic28 ?        00:00:21 /usr/share/antigravity/antigravity --max-old-space-size=3072 /usr/share/antigravity/resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript1000/29ab90d116f706844458/tscancellation-356eb9380f9c8c7f4255.tmp* --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc
+rvasquez    2994    2432  0 dic28 ?        00:00:01 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2453 --enable-crash-reporter=a2a1b726-6be8-4de5-a8d2-2027f560874d,no_channel --user-data-dir=/home/rvasquez/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15393575995941129409,17878687486512565012,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+rvasquez    3020    2618  0 dic28 ?        00:00:02 /usr/share/antigravity/antigravity /usr/share/antigravity/resources/app/extensions/css-language-features/server/dist/node/cssServerMain --node-ipc --clientProcessId=2618
+rvasquez    3021    2618  0 dic28 ?        00:00:03 /usr/share/antigravity/antigravity /usr/share/antigravity/resources/app/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=2618
+rvasquez    3040    2993  0 dic28 ?        00:00:01 /usr/share/antigravity/antigravity /usr/share/antigravity/resources/app/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/rvasquez/.cache/typescript/5.9 --enableTelemetry --typesMapLocation /usr/share/antigravity/resources/app/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation
+rvasquez    4136    1262  0 dic28 ?        00:00:00 /usr/libexec/baloorunner
+rvasquez    4515    2853  0 dic28 pts/1    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez    4516    4515  0 dic28 pts/1    00:00:00 /usr/libexec/pk-command-not-found composer require tymon/jwt-auth
+rvasquez    4569    2618  0 dic28 ?        00:00:02 /usr/share/antigravity/antigravity /usr/share/antigravity/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=2618
+rvasquez    4578    2618  0 dic28 ?        00:00:14 /home/rvasquez/.antigravity/extensions/devsense.intelli-php-vscode-0.12.17700-linux-x64/out/server/intelliphp.ls
+rvasquez    4621    2618  0 dic28 ?        00:00:45 /home/rvasquez/.antigravity/extensions/devsense.phptools-vscode-1.63.18172-linux-x64/out/server/devsense.php.ls --vscode
+rvasquez    9519    2835  0 dic28 pts/2    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   18518    2835  0 dic28 pts/3    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   18671    9519  0 dic28 pts/2    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   18672   18671  0 dic28 pts/2    00:00:00 /usr/libexec/pk-command-not-found php artisan jwt:secret
+rvasquez   18777    2835  0 dic28 pts/4    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       22563       1  0 dic28 ?        00:00:37 /usr/libexec/snapd/snapd
+root       24025       2  0 dic28 ?        00:00:00 [psimon]
+rvasquez   24937    1574  0 dic28 ?        00:00:05 /usr/bin/maliit-keyboard
+colord     26778       1  0 dic28 ?        00:00:00 /usr/libexec/colord
+root       27667       2  0 dic28 ?        00:00:11 [kworker/6:2-mm_percpu_wq]
+root       27936       2  0 00:00 ?        00:00:00 [kworker/2:2-events]
+root       28074       2  0 00:18 ?        00:00:02 [kworker/u32:7-btrfs-endio-write]
+root       28171       2  0 00:23 ?        00:00:00 [kworker/1:1-events]
+root       28702       2  0 00:28 ?        00:00:03 [kworker/u33:0-i915_flip]
+root       28841       2  0 00:31 ?        00:00:00 [kworker/4:0-events]
+root       28965       2  0 00:32 ?        00:00:01 [kworker/u32:16-btrfs-endio]
+root       28971       2  0 00:32 ?        00:00:01 [kworker/3:0-events]
+root       28977       2  0 00:32 ?        00:00:01 [kworker/u32:27-btrfs-endio-write]
+root       28984       2  0 00:32 ?        00:00:00 [kworker/u32:34-btrfs-endio]
+root       28986       2  0 00:32 ?        00:00:01 [kworker/u32:36-btrfs-endio-write]
+root       29202       2  0 00:37 ?        00:00:00 [irq/133-mei_me]
+rvasquez   29340    2835  0 00:38 pts/5    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   29614   29340  0 00:41 pts/5    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   29615   29614  0 00:41 pts/5    00:00:00 /usr/libexec/pk-command-not-found php artisan migrate
+rvasquez   29654    2835  0 00:41 pts/6    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   29921   29654  0 00:46 pts/6    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   29922   29921  0 00:46 pts/6    00:00:00 /usr/libexec/pk-command-not-found php -l backend/app/Http/Middleware/TenantMiddleware.php
+rvasquez   29963    2835  0 00:46 pts/7    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       30086       2  0 00:46 ?        00:00:00 [kworker/5:1-mm_percpu_wq]
+root       30089       2  0 00:47 ?        00:00:01 [kworker/0:0-i915-unordered]
+root       30102       2  0 00:48 ?        00:00:01 [kworker/u33:2-rtw_tx_wq]
+rvasquez   30103    2835  0 00:48 pts/8    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       30245       2  0 00:51 ?        00:00:01 [kworker/7:1-i915-unordered]
+root       30272       2  0 00:51 ?        00:00:01 [kworker/u32:1-btrfs-endio-write]
+root       30662       2  0 00:51 ?        00:00:00 [kworker/6:0-cgroup_free]
+root       30718       2  0 00:52 ?        00:00:00 [kworker/u32:3-btrfs-endio-write]
+root       30737       2  0 00:52 ?        00:00:00 [kworker/u32:5-btrfs-endio-write]
+root       31098       2  0 00:58 ?        00:00:00 [kworker/3:2-events]
+root       31108       2  0 00:58 ?        00:00:00 [kworker/0:2-events_power_efficient]
+root       31249       2  0 01:01 ?        00:00:00 [kworker/2:0-events]
+root       31275       2  0 01:01 ?        00:00:00 [kworker/5:2-events]
+root       31334       2  0 01:03 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+root       31366       2  0 01:03 ?        00:00:00 [kworker/7:2-events]
+root       31367       2  0 01:04 ?        00:00:00 [kworker/0:1-i915-unordered]
+root       31372       2  0 01:05 ?        00:00:00 [kworker/u32:4-btrfs-endio-write]
+root       31374       2  0 01:05 ?        00:00:00 [kworker/4:2-events]
+root       31407       1  1 01:06 ?        00:00:04 /usr/libexec/packagekitd
+root       31451       2  0 01:07 ?        00:00:00 [kworker/2:1-events]
+root       31843       2  0 01:07 ?        00:00:00 [kworker/3:1-events]
+root       31846     577  0 01:08 ?        00:00:00 systemd-userwork: waiting...
+root       31847     577  0 01:08 ?        00:00:00 systemd-userwork: waiting...
+root       31848     577  0 01:08 ?        00:00:00 systemd-userwork: waiting...
+root       31878       2  0 01:08 ?        00:00:00 [kworker/5:0-events]
+root       31879       2  0 01:09 ?        00:00:00 [kworker/1:2-events]
+rvasquez   31886   30103  0 01:09 pts/8    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   31887   31886  0 01:09 pts/8    00:00:00 /usr/libexec/pk-command-not-found composer install --no-interaction -v
+rvasquez   31927    2835  0 01:09 pts/9    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       32015       2  0 01:09 ?        00:00:00 [kworker/u33:1]
+root       32098       2  0 01:10 ?        00:00:00 [kworker/7:0-i915-unordered]
+rvasquez   32140   31927  0 01:10 pts/9    00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   32141   32140  0 01:10 pts/9    00:00:00 /usr/libexec/pk-command-not-found composer install --no-interaction
+rvasquez   32158    1262  0 01:10 ?        00:00:00 /usr/libexec/kf6/kioworker /usr/lib64/qt6/plugins/kf6/kio/tags.so tags  local:/run/user/1000/plasmashellmnRBpu.73.kioworker.socket
+rvasquez   32159    1262  0 01:10 ?        00:00:00 /usr/libexec/kf6/kioworker /usr/lib64/qt6/plugins/kf6/kio/tags.so tags  local:/run/user/1000/plasmashellYNAXTN.72.kioworker.socket
+rvasquez   32160    1262  0 01:10 ?        00:00:00 /usr/libexec/kf6/kioworker /usr/lib64/qt6/plugins/kf6/kio/tags.so tags  local:/run/user/1000/kded6ufJiKs.6.kioworker.socket
+rvasquez   32206    2835  0 01:11 pts/10   00:00:00 /usr/bin/bash --init-file /usr/share/antigravity/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+rvasquez   32531   32206  0 01:12 pts/10   00:00:00 ps -ef
