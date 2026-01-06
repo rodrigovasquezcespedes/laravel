@@ -36,5 +36,14 @@ Route::middleware(['api', \App\Http\Middleware\TenantMiddleware::class])->group(
         Route::get('/subscriptions', function (Request $request) {
             return \App\Models\Subscription::where('user_id', $request->user()->id)->get();
         });
+        // Historial de pagos (órdenes)
+        Route::get('/orders', function (Request $request) {
+            return \App\Models\Order::where('user_id', $request->user()->id)->get();
+        });
+
+        // Saber si el usuario es admin
+        Route::get('/me/is-admin', function (Request $request) {
+            return ['is_admin' => $request->user()->hasRole('admin')];
+        });
     });
 });
