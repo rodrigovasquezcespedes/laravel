@@ -26,4 +26,8 @@ class Product extends Model
         'price' => 'decimal:2',
         'is_active' => 'boolean',
     ];
+    public function subscriptionPlans()
+    {
+        return $this->hasMany(SubscriptionPlan::class);
+    }
 }

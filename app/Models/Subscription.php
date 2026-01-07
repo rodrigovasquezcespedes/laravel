@@ -37,4 +37,9 @@ class Subscription extends Model
     {
         return $this->belongsTo(Order::class);
     }
+
+    public function plan()
+    {
+        return $this->belongsTo(SubscriptionPlan::class, 'plan_id');
+    }
 }
