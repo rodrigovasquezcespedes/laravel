@@ -15,9 +15,11 @@ return new class extends Migration
             $table->id();
             $table->foreignId('store_id')->constrained()->onDelete('cascade');
             $table->string('name');
-            $table->string('slug');
+            $table->string('slug')->nullable();
             $table->text('description')->nullable();
             $table->decimal('price', 10, 2);
+            $table->string('billing_cycle')->default('monthly'); // monthly, yearly, etc
+            $table->json('features')->nullable();
             $table->integer('stock')->default(0);
             $table->string('image_url')->nullable();
             $table->boolean('is_active')->default(true);

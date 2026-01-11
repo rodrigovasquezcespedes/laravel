@@ -9,10 +9,12 @@ return new class extends Migration {
     {
         Schema::create('subscription_plans', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('product_id')->constrained()->onDelete('cascade');
             $table->string('name');
+            $table->text('description')->nullable();
             $table->decimal('price', 8, 2);
-            $table->string('interval'); // monthly, yearly, etc.
+            $table->string('billing_interval'); // monthly, yearly, etc.
+            $table->json('features')->nullable();
+            $table->boolean('is_active')->default(true);
             $table->timestamps();
         });
     }

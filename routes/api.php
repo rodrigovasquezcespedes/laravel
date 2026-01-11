@@ -1,3 +1,9 @@
+<?php
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+
 // API pública
 Route::get('/public/docs', [\App\Http\Controllers\PublicApiController::class, 'docs']);
 // Integración CRM/marketing
@@ -8,11 +14,6 @@ Route::post('/abtest/record', [\App\Http\Controllers\ABTestController::class, 'r
 Route::post('/webhooks/stripe', [\App\Http\Controllers\WebhookController::class, 'handleStripe']);
 // Validar cupon
 Route::post('/coupons/validate', [\App\Http\Controllers\CouponController::class, 'validateCoupon']);
-<?php
-
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
 
 Route::group([
     'middleware' => 'api',

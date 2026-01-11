@@ -12,23 +12,6 @@ use App\Models\User;
 use Illuminate\Support\Facades\Http;
 
 class PaymentController extends Controller
-    // Upgrade/downgrade de plan
-    public function changePlan(Request $request, $subscriptionId)
-    {
-        $subscription = \App\Models\Subscription::findOrFail($subscriptionId);
-        $planId = $request->input('plan_id');
-        $plan = \App\Models\SubscriptionPlan::findOrFail($planId);
-
-        // Lógica de prorrateo y cobro adicional si aplica
-        $subscription->plan_id = $plan->id;
-        $subscription->expires_at = now()->addMonth();
-        $subscription->save();
-
-        // Notificar al usuario
-        \Mail::to($subscription->user->email)->send(new \App\Mail\SubscriptionRenewed($subscription));
-
-        return response()->json(['success' => true, 'subscription' => $subscription]);
-    }
 {
     // Simulación de integración de pago
     public function pay(Request $request)
@@ -69,5 +52,23 @@ class PaymentController extends Controller
             'order' => $order,
             'subscription' => $subscription,
         ]);
+    }
+
+    // Upgrade/downgrade de plan
+    public function changePlan(Request $request, $subscriptionId)
+    {
+        $subscription = \App\Models\Subscription::findOrFail($subscriptionId);
+        $planId = $request->input('plan_id');
+        $plan = \App\Models\SubscriptionPlan::findOrFail($planId);
+
+        // Lógica de prorrateo y cobro adicional si aplica
+        $subscription->plan_id = $plan->id;
+        $subscription->expires_at = now()->addMonth();
+        $subscription->save();
+
+        // Notificar al usuario
+        \Mail::to($subscription->user->email)->send(new \App\Mail\SubscriptionRenewed($subscription));
+
+        return response()->json(['success' => true, 'subscription' => $subscription]);
     }
 }
